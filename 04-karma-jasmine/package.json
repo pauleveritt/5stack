@@ -1,0 +1,23 @@
+{
+    "name": "5stack",
+    "description": "Example of an HTML5 application",
+    "version": "0.1.0",
+    "author": "Agendaless",
+    "engines": [
+        "node"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:pauleveritt/5stack.git"
+    },
+    "devDependencies": {
+        "bower": "*",
+        "grunt": "*",
+        "grunt-cli": "*",
+        "grunt-karma": "*",
+        "karma-chrome-launcher": "*",
+        "phantomjs": "*",
+        "karma-phantomjs-launcher": "*",
+        "grunt-contrib-copy": "*"
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "name": "5stack",
+    "description": "Example of an HTML5 application",
+    "version": "0.1.0",
+    "author": "Agendaless",
+    "dependencies": {
+        "angular": "*",
+        "angular-mocks": "*"
+    },
+    "devDependencies": {
+    },
+    "homepage": "",
+    "license": "Apache",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
