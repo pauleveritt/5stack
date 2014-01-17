@@ -8,20 +8,15 @@ describe("5stack Service", function () {
         fivestack = _fivestack_;
     }));
 
-    describe("fivestack exists", function () {
-        it("should have counter and getName", function () {
-            expect(fivestack.counter).toBeDefined();
-            expect(fivestack.getName).toBeDefined();
-        });
+    it("should have counter and getName", function () {
+        expect(fivestack.counter).toBeDefined();
+        expect(fivestack.getName).toBeDefined();
     });
 
-    describe("fivestack", function () {
-        it("should append Smith to string", function () {
-            expect(fivestack.counter).toBe(0);
-            expect(fivestack.getName("John")).toBe("John Smith");
-            expect(fivestack.counter).toBe(1);
-        });
+    it("should append Smith to string", function () {
+        expect(fivestack.counter).toBe(0);
+        expect(fivestack.getName("John")).toBe("John Smith");
+        expect(fivestack.counter).toBe(1);
     });
-
 
 });
